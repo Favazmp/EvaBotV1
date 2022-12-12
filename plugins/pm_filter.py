@@ -424,13 +424,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🔰 ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ 🔰', url='https://t.me/MoviezTalkiez')
+            InlineKeyboardButton('🔰 𝗠𝗔𝗜𝗡 𝗠𝗢𝗩𝗜𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰', url='https://t.me/MoviezTalkiez')
         ], [
             InlineKeyboardButton('♻️ 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 ♻️', callback_data='start'),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
         ], [
             InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
