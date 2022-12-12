@@ -418,7 +418,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption,
-            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton (' ↩️ 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐑𝐞𝐪𝐮𝐞𝐬𝐭', url='https://t.me/MoviezTalkiez') ] ] ),
             protect_content=True if ident == 'checksubp' else False
         )
     elif query.data == "pages":
