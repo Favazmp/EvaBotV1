@@ -424,12 +424,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🔰 ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ 🔰', url='https://t.me/MoviezTalkiez')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='{script.HOME_BUTTONURL_UPDATES')
+            InlineKeyboardButton('♻️ 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 ♻️', callback_data='start'),
+            InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
         ], [
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
