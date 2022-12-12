@@ -11,9 +11,9 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 🙂,Im 𝕄𝕠𝕧𝕚𝕖 𝕋𝕒𝕝𝕜𝕚𝕖𝕫 𝔹𝕠𝕥.I can send Movies,Series and Animes💕.</b>
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+<i>ᴍᴏᴠɪᴇ,ꜱᴇʀɪᴇꜱ ᴀɴᴅ ᴀɴɪᴍᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ:- https://t.me/movieupdatestalkiez 🏆</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/movietalkiezbot><b>ᴍᴏᴠɪᴇ_ᴛᴀʟᴋɪᴇᴢ_ʙᴏᴛ</b></a>\n
