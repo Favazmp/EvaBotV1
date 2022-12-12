@@ -42,13 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/GreyMatter_Bots')
-            ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('🔰 𝗠𝗔𝗜𝗡 𝗠𝗢𝗩𝗜𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰', url='https://t.me/MoviezTalkiez')
+        ], [
+            InlineKeyboardButton('♻️ 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 ♻️', callback_data='start'),
+            InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
+        ], [
+            InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
+            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -88,13 +88,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/GreyMatter_Bots')
-            ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('🔰 𝗠𝗔𝗜𝗡 𝗠𝗢𝗩𝗜𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰', url='https://t.me/MoviezTalkiez')
+        ], [
+            InlineKeyboardButton('♻️ 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 ♻️', callback_data='start'),
+            InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
+        ], [
+            InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
+            InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
