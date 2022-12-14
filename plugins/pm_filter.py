@@ -128,10 +128,10 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
-    ]) \n
-    btn.insert(0, [
         InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez"),
+        InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
+    ])
+    btn.insert(0, [
         InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
     ])
     try:
@@ -696,10 +696,10 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
-    ]) \n
-    btn.insert(0, [
         InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez"),
+        InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
+    ])
+    btn.insert(0, [
         InlineKeyboardButton(text="🔰 𝗠𝗢𝗩𝗜𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔰", url="https://t.me/movieupdatestalkiez")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
