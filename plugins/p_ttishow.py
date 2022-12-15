@@ -39,7 +39,6 @@ async def save_group(bot, message):
         buttons = [[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('📢 Updates', url='https://t.me/movieupdatestalkiez'),
-            InlineKeyboardButton('⚠️Massage Info⚠️', url='https://t.me/rulesandregulation/3')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -61,6 +60,10 @@ async def save_group(bot, message):
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('➡️ɢʀᴏᴜᴘ ʀᴜʟᴇs⬅️', url='https://t.me/rulesandregulation/3') ] ] ),
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚠️Massage Info⚠️', url='https://t.me/rulesandregulation/3') ] ] )
                 )
+        buttons = [[
+            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('📢 Updates', url='https://t.me/movieupdatestalkiez'),
+        ]]
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
 async def leave_a_chat(bot, message):
