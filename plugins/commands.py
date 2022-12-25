@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MoviezTalkiez')
         ], [
-            InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', callback_data='start'),
+            InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
         ], [
             InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MoviezTalkiez')
         ], [
-            InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', callback_data='start'),
+            InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
         ], [
             InlineKeyboardButton('🍿🎬🍿', callback_data='help'),
