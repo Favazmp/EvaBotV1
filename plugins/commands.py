@@ -45,7 +45,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MoviezTalkiez')
+            InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MalluzTalkies')
         ], [
             InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
@@ -91,7 +91,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MoviezTalkiez')
+            InlineKeyboardButton('🔰MAIN MOVIE CHANNEL🔰', url='https://t.me/MalluzTalkies')
         ], [
             InlineKeyboardButton('♻️𝗥𝗘𝗦𝗧𝗔𝗥𝗧♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/movieupdatestalkiez')
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton (' ↩️ 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐑𝐞𝐪𝐮𝐞𝐬𝐭', url='https://t.me/MoviezTalkiez') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton (' ↩️ 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐑𝐞𝐪𝐮𝐞𝐬𝐭', url='https://t.me/MalluzTalkies') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
