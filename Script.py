@@ -17,7 +17,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/movietalkiezbot><b>ᴍᴏᴠɪᴇ_ᴛᴀʟᴋɪᴇᴢ_ʙᴏᴛ</b></a>\n
-👨‍💻 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : <a href=https://t.me/MoviezTalkiez><b>𝓣𝓪𝓵𝓴𝓲𝓮𝔃_𝓜𝓮𝓭𝓲𝓪</b></a>\n
+👨‍💻 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : <a href=https://t.me/MT_Linkz><b>𝓣𝓪𝓵𝓴𝓲𝓮𝔃_𝓜𝓮𝓭𝓲𝓪</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : Malayalam,English,Tamil,Hindi,Kannada etc..
 📢 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/movieupdatestalkiez><b></b>ᴊᴏɪɴ ɴᴏᴡ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : BoT\n</b></i>"""
